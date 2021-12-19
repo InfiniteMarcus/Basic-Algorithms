@@ -1,6 +1,8 @@
 ## Algoritmos básicos
 
-[👉 Inglês]()
+Escolha um idioma para o README:
+- [Inglês](https://github.com/InfiniteMarcus/Basic-Algorithms/blob/main/README.md)
+- 👉 **Português**
 
 ### Propósito
 

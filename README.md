@@ -1,6 +1,8 @@
 ## Basic Algorithms
 
-[👉 Portuguese]()
+Choose a README language:
+- 👉 **English**
+- [Portuguese](https://github.com/InfiniteMarcus/Basic-Algorithms/blob/main/README_pt-br.md)
 
 ### Purpose
 
