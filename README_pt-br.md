@@ -14,4 +14,5 @@ Este é um trabalho em progresso contínuo, então mais algoritmos e linguagens 
 
 ### Linguagens de programação
 
+- [C++]()
 - [JavaScript](https://github.com/InfiniteMarcus/Basic-Algorithms/tree/main/javascript)
