@@ -2,6 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 
+/*
+	This program copy the content of one .txt file to another
+	
+	You need to specify the file names when calling the program (source and destination)
+*/
+
 int main(int argc, char **argv) {
 	
 	char sourceFile[50], destinationFile[50];
