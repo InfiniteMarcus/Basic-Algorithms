@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digite seu endereço</title>
+    <style> 
+        html {
+            height: 100%;
+        }
+
+        body {
+            min-height: 100%;
+        }
+
+        html, body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        body > div {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 12px;
+        }
+
+        #cep-feedback {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dados de Endereço</h1>
+        <div>
+            <div>
+                <span>CEP:*</span>
+                <input id="cep" name="cep" type="text" placeholder="xxxxx-xxx" pattern= "\d{5}-?\d{3}" maxlength="9" title="Digite seu CEP no formato: xxxxx-xxx" onkeyup="formatCEP()" required>
+                <button id="cep-search" type="button" onclick="formatCEP()" class="btn">Buscar</button>
+            </div>
+            <div id="cep-feedback">
+                CEP inválido ou ocorreu um erro na hora de verificar. Reveja o número informado e tente novamente
+            </div>
+        </div>
+     
+        <div>
+            <span>Endereço:*</span>
+            <input id="street" name="street" type="text" placeholder="Rua, alameda, etc." maxlength="50" title="Digite seu endereço" required>				
+        </div>
+    
+        <div>
+            <span>Número:*</span>
+            <input id="street-number" name="number" type="number" min="0" title="Digite o número do seu endereço" required>					
+        </div>
+    
+        <div>
+            <span>Complemento:</span>
+            <input id="complement" name="complement" type="text" title="Digite o complemento do seu endereço" maxlength="50">					
+        </div>
+    
+        <div>
+            <span>Bairro:*</span>
+            <input id="district" name="district" type="text" maxlength="50" title="Digite seu bairro" required>					
+        </div>
+    
+        <div>
+            <span>Cidade:*</span>
+            <input id="city" name="city" type="text" maxlength="50" title="Digite sua cidade" required>					
+        </div>
+    
+        <div>
+            <span>Estado:*</span>
+            <select id="estado" name="state" title="Selecione seu estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
