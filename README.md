@@ -17,3 +17,4 @@ This is a non-stop working in progress, so more algorithms and languages will be
 - [C](https://github.com/InfiniteMarcus/Basic-Algorithms/tree/main/c)
 - [C++](https://github.com/InfiniteMarcus/Basic-Algorithms/tree/main/c%2B%2B)
 - [JavaScript](https://github.com/InfiniteMarcus/Basic-Algorithms/tree/main/javascript)
+- [Python](https://github.com/InfiniteMarcus/Basic-Algorithms/tree/main/python)
