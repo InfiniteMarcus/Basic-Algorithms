@@ -3,7 +3,7 @@ def biggest_prime_number(n):
     for i in range(2, n+1):
         if i % 2:
             is_prime = True
-            for j in range(2, i):
+            for j in range(2, int(i/2)):
                 if not (i % j):
                     is_prime = False
             
